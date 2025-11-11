@@ -20,4 +20,5 @@ let user = new UserHistory('a@a.ua', 'Антон');
 console.log(user);
 
 let user2 = user.clone();
+user2.email = 'b@b.ua'
 console.log(user);
